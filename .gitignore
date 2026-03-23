@@ -1,0 +1,27 @@
+# Environment variables — contains secrets, NEVER commit
+.env
+.env.*
+!.env.example
+
+# Dependencies — heavy, restored via npm install
+node_modules/
+
+# Docker
+docker-compose.override.yml
+
+# Logs
+logs/
+*.log
+npm-debug.log*
+
+# OS
+.DS_Store
+Thumbs.db
+
+# Editor
+.vscode/
+.idea/
+
+# Build output
+dist/
+build/
